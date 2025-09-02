@@ -46,7 +46,7 @@ export default function TimeWindowFilter({ selected, onChange }: TimeWindowFilte
 
 export function filterDataByTimeWindow(data: any[], timeWindow: TimeWindow): any[] {
   if (timeWindow === 'ALL' || !data || data.length === 0) {
-    return data
+    return data || []
   }
 
   const now = new Date()
@@ -79,5 +79,5 @@ export function filterDataByTimeWindow(data: any[], timeWindow: TimeWindow): any
   })
 
   // Apply optimization for better performance
-  return optimizeDataForTimeWindow(filteredData, timeWindow)
+  return optimizeDataForTimeWindow(filteredData || [], timeWindow)
 }
