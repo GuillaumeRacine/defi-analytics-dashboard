@@ -1,0 +1,374 @@
+{
+  "uniswap-v3": [
+    {
+      "pool_id": "c5599b3a-ea73-4017-a867-72eb971301d1",
+      "status": "success",
+      "total_points": 1248,
+      "start_date": "2022-03-27T00:00:00.000Z",
+      "end_date": "2025-09-02T00:15:01.999Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2022-03-27T00:00:00.000Z",
+        "tvlUsd": 366259922,
+        "apy": 9.08135,
+        "apyBase": 9.08135,
+        "apyReward": null,
+        "il7d": null,
+        "apyBase7d": null
+      },
+      "pool_info": {
+        "symbol": "WBTC-WETH",
+        "chain": "Ethereum",
+        "tvl": 121131955
+      }
+    },
+    {
+      "pool_id": "bbecbf69-a4f7-43e3-8b72-de180d106e2c",
+      "status": "success",
+      "total_points": 1228,
+      "start_date": "2022-03-27T00:00:00.000Z",
+      "end_date": "2025-09-02T00:15:01.999Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2022-03-27T00:00:00.000Z",
+        "tvlUsd": 140685975,
+        "apy": 12.66567,
+        "apyBase": 12.66567,
+        "apyReward": null,
+        "il7d": null,
+        "apyBase7d": null
+      },
+      "pool_info": {
+        "symbol": "WBTC-USDC",
+        "chain": "Ethereum",
+        "tvl": 118173258
+      }
+    }
+  ],
+  "uniswap-v2": [
+    {
+      "pool_id": "8ac917c6-12fa-49df-aa0b-ced2ebe54e91",
+      "status": "success",
+      "total_points": 1234,
+      "start_date": "2022-02-19T00:00:00.000Z",
+      "end_date": "2025-09-02T00:03:47.451Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2022-02-19T00:00:00.000Z",
+        "tvlUsd": 210162190,
+        "apy": 0.02,
+        "apyBase": 0.02,
+        "apyReward": null,
+        "il7d": null,
+        "apyBase7d": null
+      },
+      "pool_info": {
+        "symbol": "WISE-WETH",
+        "chain": "Ethereum",
+        "tvl": 246804208
+      }
+    },
+    {
+      "pool_id": "196aa543-1881-4515-9928-577693d4fa72",
+      "status": "success",
+      "total_points": 1198,
+      "start_date": "2022-03-27T00:00:00.000Z",
+      "end_date": "2025-09-02T00:03:47.451Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2022-03-27T00:00:00.000Z",
+        "tvlUsd": 170467409,
+        "apy": 7.77336,
+        "apyBase": 7.77336,
+        "apyReward": null,
+        "il7d": null,
+        "apyBase7d": null
+      },
+      "pool_info": {
+        "symbol": "WETH-USDT",
+        "chain": "Ethereum",
+        "tvl": 77898429
+      }
+    }
+  ],
+  "raydium-amm": [
+    {
+      "pool_id": "5519f6db-c797-4096-87a3-659c3bed5d90",
+      "status": "success",
+      "total_points": 11,
+      "start_date": "2025-08-23T23:03:41.765Z",
+      "end_date": "2025-09-02T00:01:32.552Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2025-08-23T23:03:41.765Z",
+        "tvlUsd": 7743,
+        "apy": 393.63,
+        "apyBase": 393.63,
+        "apyReward": 0,
+        "il7d": null,
+        "apyBase7d": 59.71
+      },
+      "pool_info": {
+        "symbol": "LTC-USDC",
+        "chain": "Solana",
+        "tvl": 97865187
+      }
+    },
+    {
+      "pool_id": "bb934cad-7c7c-40cd-8f16-0ef5e4c4b4f2",
+      "status": "success",
+      "total_points": 6,
+      "start_date": "2025-08-28T20:02:56.812Z",
+      "end_date": "2025-09-02T00:01:32.552Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2025-08-28T20:02:56.812Z",
+        "tvlUsd": 85545696,
+        "apy": 0,
+        "apyBase": 0,
+        "apyReward": 0,
+        "il7d": null,
+        "apyBase7d": 0
+      },
+      "pool_info": {
+        "symbol": "BSU-USDC",
+        "chain": "Solana",
+        "tvl": 85545696
+      }
+    }
+  ],
+  "orca-dex": [
+    {
+      "pool_id": "a5c85bc8-eb41-45c0-a520-d18d7529c0d8",
+      "status": "success",
+      "total_points": 703,
+      "start_date": "2023-07-07T23:02:15.616Z",
+      "end_date": "2025-09-02T00:02:02.689Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2023-07-07T23:02:15.616Z",
+        "tvlUsd": 2739,
+        "apy": 2082.78839,
+        "apyBase": 180.68526,
+        "apyReward": 1902.10313,
+        "il7d": -0.16489,
+        "apyBase7d": 24.15126
+      },
+      "pool_info": {
+        "symbol": "SOL-USDC",
+        "chain": "Solana",
+        "tvl": 32526289
+      }
+    },
+    {
+      "pool_id": "923d43c8-455e-4196-9b5d-afcc966c934f",
+      "status": "success",
+      "total_points": 940,
+      "start_date": "2023-02-06T23:01:40.673Z",
+      "end_date": "2025-09-02T00:02:02.689Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2023-02-06T23:01:40.673Z",
+        "tvlUsd": 239492,
+        "apy": 4.1153,
+        "apyBase": 4.1153,
+        "apyReward": null,
+        "il7d": null,
+        "apyBase7d": 1.48712
+      },
+      "pool_info": {
+        "symbol": "SOL-JITOSOL",
+        "chain": "Solana",
+        "tvl": 31439174
+      }
+    }
+  ],
+  "cetus-amm": [
+    {
+      "pool_id": "1249e3d1-af05-4308-a9d8-75127ec2e4c2",
+      "status": "success",
+      "total_points": 309,
+      "start_date": "2024-10-08T23:01:20.268Z",
+      "end_date": "2025-09-02T00:02:24.322Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2024-10-08T23:01:20.268Z",
+        "tvlUsd": 651067,
+        "apy": 486.26058,
+        "apyBase": 167.97825,
+        "apyReward": 318.28233,
+        "il7d": null,
+        "apyBase7d": 167.97825
+      },
+      "pool_info": {
+        "symbol": "USDC-SUI",
+        "chain": "Sui",
+        "tvl": 19068591
+      }
+    },
+    {
+      "pool_id": "0aa735e0-4cef-4b56-87ea-f75919b2bab0",
+      "status": "success",
+      "total_points": 571,
+      "start_date": "2024-01-08T23:01:12.797Z",
+      "end_date": "2025-09-02T00:02:24.322Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2024-01-08T23:01:12.797Z",
+        "tvlUsd": 1394840,
+        "apy": 25.60274,
+        "apyBase": 1.57707,
+        "apyReward": 24.02566,
+        "il7d": -1e-05,
+        "apyBase7d": 0.81866
+      },
+      "pool_info": {
+        "symbol": "HASUI-SUI",
+        "chain": "Sui",
+        "tvl": 18962215
+      }
+    }
+  ],
+  "aerodrome-v1": [
+    {
+      "pool_id": "e8cb4dbb-9e66-4cfa-9c77-407118b128a0",
+      "status": "success",
+      "total_points": 55,
+      "start_date": "2025-07-10T23:03:20.252Z",
+      "end_date": "2025-09-02T00:19:22.545Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2025-07-10T23:03:20.252Z",
+        "tvlUsd": 22720270,
+        "apy": 13.9558,
+        "apyBase": 2.64949,
+        "apyReward": 11.30631,
+        "il7d": null,
+        "apyBase7d": 0.99833
+      },
+      "pool_info": {
+        "symbol": "WETH-USDC",
+        "chain": "Base",
+        "tvl": 21495369
+      }
+    },
+    {
+      "pool_id": "69c0fc74-dee5-4c60-9aed-a593661d54ea",
+      "status": "success",
+      "total_points": 54,
+      "start_date": "2025-07-10T23:03:20.252Z",
+      "end_date": "2025-09-01T23:03:30.511Z",
+      "fields": [
+        "timestamp",
+        "tvlUsd",
+        "apy",
+        "apyBase",
+        "apyReward",
+        "il7d",
+        "apyBase7d"
+      ],
+      "sample": {
+        "timestamp": "2025-07-10T23:03:20.252Z",
+        "tvlUsd": 5506675,
+        "apy": 16.01875,
+        "apyBase": 0.11119,
+        "apyReward": 15.90756,
+        "il7d": null,
+        "apyBase7d": 0.01485
+      },
+      "pool_info": {
+        "symbol": "WETH-AERO",
+        "chain": "Base",
+        "tvl": 7370014
+      }
+    }
+  ]
+}
