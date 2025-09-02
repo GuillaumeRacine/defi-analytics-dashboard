@@ -267,7 +267,7 @@ export default function PoolCharts({ data, timeWindow }: Props & { timeWindow: T
       
       <div className="grid grid-cols-1 gap-4">
         {availablePools.map(([protocol, poolData]) => (
-          <PoolChart key={protocol} protocol={protocol} data={poolData} timeWindow={timeWindow} />
+          <PoolChart key={protocol} protocol={protocol} data={poolData as PoolData} timeWindow={timeWindow} />
         ))}
       </div>
     </div>
