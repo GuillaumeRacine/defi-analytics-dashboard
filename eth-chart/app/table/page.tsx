@@ -54,12 +54,18 @@ interface TableRow {
   cetus_amm_apy?: number
 }
 
+type SortOrder = 'newest' | 'oldest'
+type SortColumn = 'date' | 'BTC_price' | 'ETH_price' | 'SOL_price' | 'SUI_price'
+
 export default function TableView() {
   const [tokenData, setTokenData] = useState<Record<string, TokenData>>({})
   const [poolData, setPoolData] = useState<Record<string, PoolData>>({})
   const [timeWindow, setTimeWindow] = useState<TimeWindow>('ALL')
   const [tableData, setTableData] = useState<TableRow[]>([])
+  const [sortedData, setSortedData] = useState<TableRow[]>([])
   const [loading, setLoading] = useState(true)
+  const [sortOrder, setSortOrder] = useState<SortOrder>('newest')
+  const [sortColumn, setSortColumn] = useState<SortColumn>('date')
 
   useEffect(() => {
     async function loadData() {
@@ -165,6 +171,33 @@ export default function TableView() {
     setTableData(rows)
   }, [tokenData, poolData, timeWindow])
 
+  useEffect(() => {
+    if (tableData.length === 0) return
+
+    let sorted = [...tableData]
+    
+    if (sortColumn === 'date') {
+      sorted.sort((a, b) => {
+        if (sortOrder === 'newest') {
+          return new Date(b.date).getTime() - new Date(a.date).getTime()
+        }
+        return new Date(a.date).getTime() - new Date(b.date).getTime()
+      })
+    } else {
+      sorted.sort((a, b) => {
+        const aValue = a[sortColumn] || 0
+        const bValue = b[sortColumn] || 0
+        
+        if (sortOrder === 'newest') {
+          return bValue - aValue
+        }
+        return aValue - bValue
+      })
+    }
+
+    setSortedData(sorted)
+  }, [tableData, sortOrder, sortColumn])
+
   if (loading) {
     return (
       <div className="bg-black text-white min-h-screen flex items-center justify-center">
@@ -179,23 +212,63 @@ export default function TableView() {
         <div className="mb-4">
           <h1 className="text-lg font-bold mb-2">Data Table View</h1>
           <div className="text-xs text-gray-500 mb-4">
-            Daily data for all tokens and pools • {tableData.length} rows
+            Daily data for all tokens and pools • {sortedData.length > 0 ? sortedData.length : tableData.length} rows • Sorted by {sortColumn === 'date' ? 'Date' : sortColumn.replace('_', ' ')} ({sortOrder})
           </div>
           
-          <div className="flex gap-2 mb-4">
-            {(['ALL', '3Y', '1Y', '6M', '3M', '1M', '1W'] as TimeWindow[]).map((window) => (
-              <button
-                key={window}
-                onClick={() => setTimeWindow(window)}
-                className={`px-2 py-1 text-xs rounded border ${
-                  timeWindow === window
-                    ? 'bg-blue-600 border-blue-500 text-white'
-                    : 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700'
-                }`}
+          <div className="flex flex-col gap-4 mb-4">
+            <div className="flex gap-2">
+              {(['ALL', '3Y', '1Y', '6M', '3M', '1M', '1W'] as TimeWindow[]).map((window) => (
+                <button
+                  key={window}
+                  onClick={() => setTimeWindow(window)}
+                  className={`px-2 py-1 text-xs rounded border ${
+                    timeWindow === window
+                      ? 'bg-blue-600 border-blue-500 text-white'
+                      : 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700'
+                  }`}
+                >
+                  {window}
+                </button>
+              ))}
+            </div>
+            
+            <div className="flex items-center gap-4 text-xs">
+              <span className="text-gray-400">Sort by:</span>
+              <select
+                value={sortColumn}
+                onChange={(e) => setSortColumn(e.target.value as SortColumn)}
+                className="bg-gray-800 border border-gray-700 text-gray-300 rounded px-2 py-1"
               >
-                {window}
-              </button>
-            ))}
+                <option value="date">Date</option>
+                <option value="BTC_price">BTC Price</option>
+                <option value="ETH_price">ETH Price</option>
+                <option value="SOL_price">SOL Price</option>
+                <option value="SUI_price">SUI Price</option>
+              </select>
+              
+              <div className="flex gap-1">
+                <button
+                  onClick={() => setSortOrder('newest')}
+                  className={`px-2 py-1 text-xs rounded border ${
+                    sortOrder === 'newest'
+                      ? 'bg-green-600 border-green-500 text-white'
+                      : 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700'
+                  }`}
+                >
+                  Newest
+                </button>
+                <button
+                  onClick={() => setSortOrder('oldest')}
+                  className={`px-2 py-1 text-xs rounded border ${
+                    sortOrder === 'oldest'
+                      ? 'bg-green-600 border-green-500 text-white'
+                      : 'bg-gray-800 border-gray-700 text-gray-300 hover:bg-gray-700'
+                  }`}
+                >
+                  Oldest
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -217,7 +290,7 @@ export default function TableView() {
               </tr>
             </thead>
             <tbody>
-              {tableData.map((row, index) => (
+              {(sortedData.length > 0 ? sortedData : tableData).map((row, index) => (
                 <tr key={row.date} className={`border-b border-gray-900 ${index % 2 === 0 ? 'bg-gray-950' : 'bg-black'} hover:bg-gray-900`}>
                   <td className="p-2 text-gray-300 font-mono">{row.date}</td>
                   <td className="p-2 text-right text-orange-300">

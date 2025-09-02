@@ -1,12 +1,11 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import PoolCharts from '../components/PoolCharts'
+import TimeWindowFilter, { TimeWindow } from '../components/TimeWindowFilter'
 import Link from 'next/link'
-import FourTokenCharts from './FourTokenCharts'
-import TimeWindowFilter, { TimeWindow } from './TimeWindowFilter'
 
-interface DashboardClientProps {
-  tokensData: any
+interface PoolsClientProps {
   poolData: any
 }
 
@@ -28,14 +27,14 @@ function LoadingSkeleton() {
   )
 }
 
-export default function DashboardClient({ tokensData, poolData }: DashboardClientProps) {
+export default function PoolsClient({ poolData }: PoolsClientProps) {
   const [timeWindow, setTimeWindow] = useState<TimeWindow>('ALL')
   const [isChangingTimeWindow, setIsChangingTimeWindow] = useState(false)
 
-  // Memoize expensive computations
-  const tokenCount = useMemo(() => {
-    return tokensData ? Object.keys(tokensData).length : 0
-  }, [tokensData])
+  // Memoize pool count
+  const poolCount = useMemo(() => {
+    return poolData ? Object.keys(poolData).length : 0
+  }, [poolData])
 
   const handleTimeWindowChange = async (newTimeWindow: TimeWindow) => {
     setIsChangingTimeWindow(true)
@@ -48,7 +47,7 @@ export default function DashboardClient({ tokensData, poolData }: DashboardClien
   }
 
   // Show loading if no data
-  if (!tokensData) {
+  if (!poolData) {
     return (
       <div className="min-h-screen bg-black text-white p-4">
         <LoadingSkeleton />
@@ -64,10 +63,10 @@ export default function DashboardClient({ tokensData, poolData }: DashboardClien
           {/* Navigation */}
           <div className="flex items-center justify-between mb-4">
             <nav className="flex items-center space-x-6">
-              <h1 className="text-lg font-bold text-white">Token Analytics</h1>
-              <Link href="/pools" className="text-gray-400 hover:text-white text-sm transition-colors">
-                Pools →
+              <Link href="/" className="text-gray-400 hover:text-white text-sm transition-colors">
+                ← Tokens
               </Link>
+              <h1 className="text-lg font-bold text-white">Pool Analytics</h1>
             </nav>
             
             <Link href="/table" className="text-blue-400 hover:text-blue-300 text-sm transition-colors">
@@ -79,11 +78,11 @@ export default function DashboardClient({ tokensData, poolData }: DashboardClien
           <div className="flex flex-col items-center space-y-2">
             <TimeWindowFilter selected={timeWindow} onChange={handleTimeWindowChange} />
             
-            {/* Token summary */}
+            {/* Pool summary */}
             <div className="text-xs text-gray-500 flex items-center space-x-4">
-              <span>{tokenCount} tokens</span>
+              <span>{poolCount} pools</span>
               <span>•</span>
-              <span>Price Analytics</span>
+              <span>TVL & APY Analytics</span>
               <span>•</span>
               <span className="text-green-500">Cached & Optimized</span>
             </div>
@@ -91,24 +90,26 @@ export default function DashboardClient({ tokensData, poolData }: DashboardClien
         </div>
       </div>
       
-      {/* Token Content */}
+      {/* Pool Content */}
       <div className={`transition-opacity duration-200 ${isChangingTimeWindow ? 'opacity-50' : 'opacity-100'}`}>
-        {tokensData && <FourTokenCharts data={tokensData} timeWindow={timeWindow} />}
+        <div className="max-w-7xl mx-auto p-4">
+          <PoolCharts data={poolData} timeWindow={timeWindow} />
+        </div>
       </div>
       
       {/* Footer */}
       <footer className="border-t border-gray-800 mt-8 pt-4 pb-8 text-center">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-center space-x-8 text-sm">
-            <Link href="/pools" className="text-blue-400 hover:text-blue-300 transition-colors">
-              Pool Analytics
+            <Link href="/" className="text-blue-400 hover:text-blue-300 transition-colors">
+              Token Charts
             </Link>
             <Link href="/table" className="text-blue-400 hover:text-blue-300 transition-colors">
               Data Tables
             </Link>
           </div>
           <p className="text-xs text-gray-500 mt-2">
-            DeFi Token Analytics • Historical Price Data
+            DeFi Pool Analytics • Historical TVL & APY Data
           </p>
         </div>
       </footer>

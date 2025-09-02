@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { optimizeDataForTimeWindow } from '../../lib/cache'
 
 export type TimeWindow = 'ALL' | '3Y' | '1Y' | '6M' | '3M' | '1M' | '1W'
 
@@ -72,8 +73,11 @@ export function filterDataByTimeWindow(data: any[], timeWindow: TimeWindow): any
       break
   }
 
-  return data.filter(item => {
+  const filteredData = data.filter(item => {
     const itemDate = new Date(item.date)
     return itemDate >= cutoffDate
   })
+
+  // Apply optimization for better performance
+  return optimizeDataForTimeWindow(filteredData, timeWindow)
 }
