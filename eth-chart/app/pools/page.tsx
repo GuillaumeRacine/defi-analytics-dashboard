@@ -4,7 +4,32 @@ import { cache } from 'react'
 import PoolsClient from './PoolsClient'
 import { precomputeChartData } from '../../lib/cache'
 
-// Cache pool data loading for better performance
+// Cache pool registry data loading for better performance
+const getPoolRegistry = cache(async () => {
+  try {
+    const dataPath = path.join(process.cwd(), 'data', 'comprehensive_pool_directory.json')
+    const fileContent = fs.readFileSync(dataPath, 'utf8')
+    const registryData = JSON.parse(fileContent)
+    
+    return registryData
+  } catch (error) {
+    console.error('Error loading comprehensive pool directory:', error)
+    console.error('Tried path:', path.join(process.cwd(), 'data', 'comprehensive_pool_directory.json'))
+    // Fallback to simple registry
+    try {
+      const fallbackPath = path.join(process.cwd(), 'data', 'pool_registry_simple.json')
+      const fallbackContent = fs.readFileSync(fallbackPath, 'utf8')
+      const fallbackData = JSON.parse(fallbackContent)
+      console.log('Using fallback simple registry')
+      return fallbackData
+    } catch (fallbackError) {
+      console.error('Fallback also failed:', fallbackError)
+      return { pools: {}, last_updated: null }
+    }
+  }
+})
+
+// Cache historical pool data loading
 const getPoolData = cache(async () => {
   try {
     const dataPath = path.join(process.cwd(), 'data', 'pool_data.json')
@@ -35,15 +60,16 @@ const getPoolData = cache(async () => {
 export const revalidate = 3600 // Revalidate every hour
 
 export default async function PoolsPage() {
+  const poolRegistry = await getPoolRegistry()
   const poolData = await getPoolData()
   
-  console.log('Pool page - Pool data keys:', Object.keys(poolData))
+  console.log('Pool registry loaded:', Object.keys(poolRegistry.pools || {}).length, 'pools')
   console.log('Pool data cached and optimized for fast loading')
   
-  return <PoolsClient poolData={poolData} />
+  return <PoolsClient poolRegistry={poolRegistry} poolData={poolData} />
 }
 
 export const metadata = {
-  title: 'Pool Analytics - DeFi Dashboard',
-  description: 'Historical TVL and APY analytics for DeFi liquidity pools'
+  title: 'Explore Pools - DeFi Pool Directory',
+  description: 'Comprehensive directory of 3,718+ pools over $1M TVL from DeFillama with complete metadata and CLM analysis'
 }

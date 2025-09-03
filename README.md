@@ -1,6 +1,6 @@
-# DeFi Backtesting Dataset
+# DeFi Pool Directory & Analytics Dashboard
 
-A comprehensive historical dataset system for backtesting DeFi trading strategies, built on DeFillama PRO API with multi-source data integration capabilities.
+A comprehensive directory of 3,718+ DeFi pools over $1M TVL with interactive analytics dashboard and CLM (Concentrated Liquidity Management) strategy analysis.
 
 ## 🎯 Project Goal
 

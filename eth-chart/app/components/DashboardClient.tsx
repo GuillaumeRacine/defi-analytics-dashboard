@@ -101,7 +101,7 @@ export default function DashboardClient({ tokensData, poolData }: DashboardClien
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex justify-center space-x-8 text-sm">
             <Link href="/pools" className="text-blue-400 hover:text-blue-300 transition-colors">
-              Pool Analytics
+              Explore Pools
             </Link>
             <Link href="/table" className="text-blue-400 hover:text-blue-300 transition-colors">
               Data Tables

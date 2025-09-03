@@ -1,0 +1,218 @@
+{
+  "analysis_date": "2025-09-03",
+  "total_pools": 19046,
+  "pools_over_1m_tvl": 3718,
+  "percentage_over_1m": 19.521159298540375,
+  "tvl_distribution": {
+    "$1B+": 31,
+    "$100M-$1B": 176,
+    "$10M-$100M": 860,
+    "$1M-$10M": 2651,
+    "$100K-$1M": 6935,
+    "<$100K": 8393
+  },
+  "top_protocols": {
+    "uniswap-v3": 359,
+    "morpho-blue": 233,
+    "uniswap-v2": 202,
+    "pendle": 198,
+    "curve-dex": 189,
+    "merkl": 177,
+    "raydium-amm": 163,
+    "aave-v3": 134,
+    "convex-finance": 100,
+    "aerodrome-slipstream": 74,
+    "compound-v3": 70,
+    "beefy": 68,
+    "fluid-lending": 66,
+    "balancer-v2": 62,
+    "yearn-finance": 59,
+    "euler-v2": 47,
+    "fluid-dex": 42,
+    "kamino-liquidity": 42,
+    "balancer-v3": 36,
+    "orca-dex": 36
+  },
+  "top_chains": {
+    "Ethereum": 1763,
+    "Base": 388,
+    "Solana": 305,
+    "Arbitrum": 271,
+    "BSC": 114,
+    "Avalanche": 104,
+    "Optimism": 95,
+    "Polygon": 79,
+    "Sonic": 56,
+    "Berachain": 53,
+    "Sui": 48,
+    "Aptos": 38,
+    "Gnosis": 31,
+    "Cardano": 28,
+    "Cronos": 21
+  },
+  "top_20_pools": [
+    {
+      "pool_id": "747c1d2a-c668-4682-b9f9-296708a3dd90",
+      "name": "STETH",
+      "protocol": "lido",
+      "chain": "Ethereum",
+      "tvl": 38585192062,
+      "apy": 2.719
+    },
+    {
+      "pool_id": "80b8bf92-b953-4c20-98ea-c9653ef2bb98",
+      "name": "WBETH",
+      "protocol": "binance-staked-eth",
+      "chain": "Ethereum",
+      "tvl": 13840362871,
+      "apy": 2.38856
+    },
+    {
+      "pool_id": "46bd2bdf-6d92-4066-b482-e885ee172264",
+      "name": "WEETH",
+      "protocol": "ether.fi-stake",
+      "chain": "Ethereum",
+      "tvl": 12050327393,
+      "apy": 3.15469
+    },
+    {
+      "pool_id": "db678df9-3281-4bc2-a8bb-01160ffd6d48",
+      "name": "WEETH",
+      "protocol": "aave-v3",
+      "chain": "Ethereum",
+      "tvl": 8582333798,
+      "apy": 0.00038
+    },
+    {
+      "pool_id": "d4b3c522-6127-4b89-bedf-83641cdcd2eb",
+      "name": "RETH",
+      "protocol": "rocket-pool",
+      "chain": "Ethereum",
+      "tvl": 6018648410,
+      "apy": 2.36888
+    },
+    {
+      "pool_id": "66985a81-9c51-46ca-9977-42b4fe7bc6df",
+      "name": "SUSDE",
+      "protocol": "ethena-usde",
+      "chain": "Ethereum",
+      "tvl": 5657675010,
+      "apy": 9.3853
+    },
+    {
+      "pool_id": "e6435aae-cbe9-4d26-ab2c-a4d533db9972",
+      "name": "WSTETH",
+      "protocol": "aave-v3",
+      "chain": "Ethereum",
+      "tvl": 5079339053,
+      "apy": 0.04332
+    },
+    {
+      "pool_id": "7e382157-b1bc-406d-b17b-facba43b716e",
+      "name": "WBTC",
+      "protocol": "aave-v3",
+      "chain": "Ethereum",
+      "tvl": 4729023008,
+      "apy": 0.01245
+    },
+    {
+      "pool_id": "3b45941c-16cb-48c5-a490-16c6c4f1d86a",
+      "name": "WSTETH",
+      "protocol": "sparklend",
+      "chain": "Ethereum",
+      "tvl": 3276911892,
+      "apy": 0.00018
+    },
+    {
+      "pool_id": "0e7d0722-9054-4907-8593-567b353c0900",
+      "name": "JITOSOL",
+      "protocol": "jito-liquid-staking",
+      "chain": "Solana",
+      "tvl": 3137974378,
+      "apy": 6.44
+    },
+    {
+      "pool_id": "54db47ea-85f4-4fab-87c4-6b7d8ad7ed1c",
+      "name": "PT-SUSDE-25SEP2025",
+      "protocol": "aave-v3",
+      "chain": "Ethereum",
+      "tvl": 2386027758,
+      "apy": 0
+    },
+    {
+      "pool_id": "9e709e57-84eb-496b-82ce-2e8f6a17db1b",
+      "name": "BNSOL",
+      "protocol": "binance-staked-sol",
+      "chain": "Solana",
+      "tvl": 2382332532,
+      "apy": 5.64416
+    },
+    {
+      "pool_id": "43641cf5-a92e-416b-bce9-27113d3c0db6",
+      "name": "USDC",
+      "protocol": "maple",
+      "chain": "Ethereum",
+      "tvl": 2379285304,
+      "apy": 9.05886
+    },
+    {
+      "pool_id": "ae255d3e-5f02-4edd-aab3-ba43eead3a06",
+      "name": "ETH",
+      "protocol": "justlend",
+      "chain": "Tron",
+      "tvl": 2348288839,
+      "apy": 0.0001
+    },
+    {
+      "pool_id": "d8c4eff5-c8a9-46fc-a888-057c4c668e72",
+      "name": "SUSDS",
+      "protocol": "sky-lending",
+      "chain": "Ethereum",
+      "tvl": 2025341180,
+      "apy": 4.75
+    },
+    {
+      "pool_id": "33c732f6-a78d-41da-af5b-ccd9fa5e52d5",
+      "name": "RSETH",
+      "protocol": "kelp",
+      "chain": "Ethereum",
+      "tvl": 1883965728,
+      "apy": 2.58
+    },
+    {
+      "pool_id": "51d2f8d4-1fb5-4f6b-938b-e9cd17ca1ceb",
+      "name": "WETH",
+      "protocol": "sky-lending",
+      "chain": "Ethereum",
+      "tvl": 1803654096,
+      "apy": 0
+    },
+    {
+      "pool_id": "a2fc7bc3-b5c9-4b9e-ab45-27fe312baba6",
+      "name": "PT-USDE-25SEP2025",
+      "protocol": "aave-v3",
+      "chain": "Ethereum",
+      "tvl": 1785029990,
+      "apy": 0
+    },
+    {
+      "pool_id": "465d177e-3d0d-42c0-b5f5-31c857567135",
+      "name": "LSETH",
+      "protocol": "liquid-collective",
+      "chain": "Ethereum",
+      "tvl": 1622102187,
+      "apy": 2.46958
+    },
+    {
+      "pool_id": "a87bbade-7728-43d9-bc23-2538812be3cc",
+      "name": "USDC",
+      "protocol": "merkl",
+      "chain": "Ethereum",
+      "tvl": 1572201157,
+      "apy": 0.59097
+    }
+  ],
+  "total_tvl_over_1m": 219405360801,
+  "mega_pools_count": 207,
+  "high_apy_pools_count": 137
+}

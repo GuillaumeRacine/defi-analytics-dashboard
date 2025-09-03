@@ -1,0 +1,2140 @@
+{
+  "last_updated": "2025-09-03T15:40:27.828808",
+  "pools": {
+    "solana:a5c85bc8-eb41-45c0-a520-d18d7529c0d8": {
+      "name": "SOL-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "a5c85bc8-eb41-45c0-a520-d18d7529c0d8",
+      "tvl": 32526289
+    },
+    "solana:923d43c8-455e-4196-9b5d-afcc966c934f": {
+      "name": "SOL-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "923d43c8-455e-4196-9b5d-afcc966c934f",
+      "tvl": 31439174
+    },
+    "solana:6dc30ef3-d497-497c-91f3-b4ccb817a8b9": {
+      "name": "SOL-CBBTC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "6dc30ef3-d497-497c-91f3-b4ccb817a8b9",
+      "tvl": 10487327
+    },
+    "solana:6d8531f1-e1fe-428f-a929-6cf539f2942f": {
+      "name": "JLP-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "6d8531f1-e1fe-428f-a929-6cf539f2942f",
+      "tvl": 10178146
+    },
+    "solana:ac225670-41bc-48fa-b8d7-32011abc58fe": {
+      "name": "-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "ac225670-41bc-48fa-b8d7-32011abc58fe",
+      "tvl": 10149448
+    },
+    "solana:4fcdc82b-e220-4a17-a476-4eb6108ef87d": {
+      "name": "-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4fcdc82b-e220-4a17-a476-4eb6108ef87d",
+      "tvl": 9808665
+    },
+    "solana:cc5c8175-bdfa-442f-870b-6f2cdec94854": {
+      "name": "JTO-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "cc5c8175-bdfa-442f-870b-6f2cdec94854",
+      "tvl": 6752812
+    },
+    "solana:aa0e1647-583f-4b82-a10a-e659f65263f6": {
+      "name": "USDY-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "aa0e1647-583f-4b82-a10a-e659f65263f6",
+      "tvl": 6570602
+    },
+    "solana:2651188f-6b05-473e-9cfb-977a4ad094ba": {
+      "name": "CBBTC-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "2651188f-6b05-473e-9cfb-977a4ad094ba",
+      "tvl": 5809601
+    },
+    "solana:99203560-4a69-4a67-9dbc-70b78a68a2b9": {
+      "name": "PYUSD-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "99203560-4a69-4a67-9dbc-70b78a68a2b9",
+      "tvl": 5372197
+    },
+    "solana:ab47588f-831d-489b-9520-095663bbea59": {
+      "name": "SOL-WBTC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "ab47588f-831d-489b-9520-095663bbea59",
+      "tvl": 5319197
+    },
+    "solana:bfbf68da-07eb-48e3-b1ad-271bc4f22959": {
+      "name": "FDUSD-USDT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "bfbf68da-07eb-48e3-b1ad-271bc4f22959",
+      "tvl": 5276535
+    },
+    "solana:92a173c7-9743-4ce5-a102-9326846e84bd": {
+      "name": "MPLX-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "92a173c7-9743-4ce5-a102-9326846e84bd",
+      "tvl": 4875746
+    },
+    "solana:69c64232-ef1a-45f2-b49b-daeb2a906873": {
+      "name": "SOL-WHETH",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "69c64232-ef1a-45f2-b49b-daeb2a906873",
+      "tvl": 4055881
+    },
+    "solana:78028d3d-d3f5-4917-afb2-29abed034057": {
+      "name": "SOL-JLP",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "78028d3d-d3f5-4917-afb2-29abed034057",
+      "tvl": 3709271
+    },
+    "solana:988a317f-1af0-42d2-80bb-76e660cb1c34": {
+      "name": "WFRAGSOL-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "988a317f-1af0-42d2-80bb-76e660cb1c34",
+      "tvl": 3665596
+    },
+    "solana:5da12137-c29a-45bb-8893-f6c01400ae02": {
+      "name": "SOL-FARTCOIN",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "5da12137-c29a-45bb-8893-f6c01400ae02",
+      "tvl": 3407154
+    },
+    "solana:a8f58a27-63f0-4511-b642-1ee93a63d00d": {
+      "name": "USDC-FRXUSD",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "a8f58a27-63f0-4511-b642-1ee93a63d00d",
+      "tvl": 2971163
+    },
+    "solana:c3ab80c2-cf7f-4500-b880-2e39d8c66f8d": {
+      "name": "USDC-NATIX",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "c3ab80c2-cf7f-4500-b880-2e39d8c66f8d",
+      "tvl": 2861306
+    },
+    "solana:655490fe-d1d9-43b2-9e18-5aa12a046e71": {
+      "name": "KMNO-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "655490fe-d1d9-43b2-9e18-5aa12a046e71",
+      "tvl": 2748655
+    },
+    "solana:18da9637-00b2-4eda-bf76-942f1acbfc28": {
+      "name": "JUP-SOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "18da9637-00b2-4eda-bf76-942f1acbfc28",
+      "tvl": 2722446
+    },
+    "solana:b3414aaf-595d-4bb0-9ff8-78f93d2128fa": {
+      "name": "SOL-PENGU",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b3414aaf-595d-4bb0-9ff8-78f93d2128fa",
+      "tvl": 2454615
+    },
+    "solana:ee5a9587-16b5-4af3-bcb0-d42aeddae178": {
+      "name": "USDCET-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "ee5a9587-16b5-4af3-bcb0-d42aeddae178",
+      "tvl": 2025305
+    },
+    "solana:d184c364-de60-4dd0-8d10-37275e39cd64": {
+      "name": "MNDE-MSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d184c364-de60-4dd0-8d10-37275e39cd64",
+      "tvl": 1776612
+    },
+    "solana:5ff68f29-adcc-4551-8947-56ddda389f17": {
+      "name": "SOL-JUPSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "5ff68f29-adcc-4551-8947-56ddda389f17",
+      "tvl": 1699350
+    },
+    "solana:e571b6f4-6242-4e0c-a4ef-ab7525de9a1f": {
+      "name": "SOL-BSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "e571b6f4-6242-4e0c-a4ef-ab7525de9a1f",
+      "tvl": 1693923
+    },
+    "solana:64bdbf93-387a-4215-b5ae-6fcc908d2e48": {
+      "name": "SOL-ORE",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "64bdbf93-387a-4215-b5ae-6fcc908d2e48",
+      "tvl": 1579626
+    },
+    "solana:42dc3364-dd6b-47e7-a2e3-f4907bb3b5d2": {
+      "name": "CBBTC-WBTC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "42dc3364-dd6b-47e7-a2e3-f4907bb3b5d2",
+      "tvl": 1290583
+    },
+    "solana:4376015c-0cde-4a59-b7cc-ed2ee92277c1": {
+      "name": "SOL-RENDER",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4376015c-0cde-4a59-b7cc-ed2ee92277c1",
+      "tvl": 1257595
+    },
+    "solana:6aa870e3-1950-4344-ab24-3543a10418c5": {
+      "name": "USDC-USDT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "6aa870e3-1950-4344-ab24-3543a10418c5",
+      "tvl": 1223792
+    },
+    "solana:97a434f4-3667-4192-805f-b7e1677c2fc1": {
+      "name": "MEW-SOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "97a434f4-3667-4192-805f-b7e1677c2fc1",
+      "tvl": 1173252
+    },
+    "solana:f274ac6d-9426-4863-abd5-947140507948": {
+      "name": "USDC-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "f274ac6d-9426-4863-abd5-947140507948",
+      "tvl": 1162384
+    },
+    "solana:478bf104-2f78-4186-855d-791ee1ed93c9": {
+      "name": "SOL-BONK",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "478bf104-2f78-4186-855d-791ee1ed93c9",
+      "tvl": 1142142
+    },
+    "solana:a5a6014e-ddda-4edf-975d-7a04a6ed167e": {
+      "name": "BONK-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "a5a6014e-ddda-4edf-975d-7a04a6ed167e",
+      "tvl": 1107995
+    },
+    "solana:5e0931ab-df87-4b0f-a051-a5e90246ee6d": {
+      "name": "BONKSOL-INF",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "5e0931ab-df87-4b0f-a051-a5e90246ee6d",
+      "tvl": 1106672
+    },
+    "solana:639ddec3-3696-4d44-8125-eb3e9b25cedb": {
+      "name": "MEW-SOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "639ddec3-3696-4d44-8125-eb3e9b25cedb",
+      "tvl": 1012516
+    },
+    "solana:5042d406-208d-4aca-b599-a6f00c621f1f": {
+      "name": "SOL-AI16Z",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "5042d406-208d-4aca-b599-a6f00c621f1f",
+      "tvl": 994868
+    },
+    "solana:409066bb-22eb-4c9e-994f-dfcea35e4481": {
+      "name": "WBTC-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "409066bb-22eb-4c9e-994f-dfcea35e4481",
+      "tvl": 907334
+    },
+    "solana:4e006879-08a6-4522-81e5-c5c5c42f5a1b": {
+      "name": "USDC-GRASS",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4e006879-08a6-4522-81e5-c5c5c42f5a1b",
+      "tvl": 882493
+    },
+    "solana:3cb249b9-30cb-4232-b0f1-1b527244fd24": {
+      "name": "SOL-SSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "3cb249b9-30cb-4232-b0f1-1b527244fd24",
+      "tvl": 875752
+    },
+    "solana:d05cdeaa-4bee-45b7-ae2c-905ee3012bd7": {
+      "name": "SOL-INF",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d05cdeaa-4bee-45b7-ae2c-905ee3012bd7",
+      "tvl": 841339
+    },
+    "solana:d7d14b5c-6e0a-460b-8cba-e3053820d3c2": {
+      "name": "MSOL-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d7d14b5c-6e0a-460b-8cba-e3053820d3c2",
+      "tvl": 794418
+    },
+    "solana:d050492b-d3cf-4949-b96e-24e23d009af3": {
+      "name": "TRUMP-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d050492b-d3cf-4949-b96e-24e23d009af3",
+      "tvl": 760971
+    },
+    "solana:2d456507-7b1d-43c1-9737-b26525c541c5": {
+      "name": "USDC-EURC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "2d456507-7b1d-43c1-9737-b26525c541c5",
+      "tvl": 746604
+    },
+    "solana:b03c45e9-77a9-4782-8bb7-09162616095f": {
+      "name": "KMNO-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b03c45e9-77a9-4782-8bb7-09162616095f",
+      "tvl": 736106
+    },
+    "solana:7b5069e3-2d45-4e40-912d-18a117764156": {
+      "name": "SOL-POPCAT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "7b5069e3-2d45-4e40-912d-18a117764156",
+      "tvl": 729887
+    },
+    "solana:3f574e4f-c9a8-4181-9826-8650921786dc": {
+      "name": "USDC-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "3f574e4f-c9a8-4181-9826-8650921786dc",
+      "tvl": 700088
+    },
+    "solana:490a8764-1b70-4d7f-889a-70637e61a21a": {
+      "name": "SOL-BORG",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "490a8764-1b70-4d7f-889a-70637e61a21a",
+      "tvl": 676840
+    },
+    "solana:1bf575be-09e6-4c00-aef9-70f9b7aa582b": {
+      "name": "SOL-ZEUS",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "1bf575be-09e6-4c00-aef9-70f9b7aa582b",
+      "tvl": 660618
+    },
+    "solana:284e6c8f-9f8c-493e-8e9a-955629bc66de": {
+      "name": "DRIFT-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "284e6c8f-9f8c-493e-8e9a-955629bc66de",
+      "tvl": 636804
+    },
+    "solana:35d4a114-efc2-4af7-9430-c0fb2ae26217": {
+      "name": "USDC-GRASS",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "35d4a114-efc2-4af7-9430-c0fb2ae26217",
+      "tvl": 630949
+    },
+    "solana:558efc67-8544-434b-bf15-ea152f5c5e1d": {
+      "name": "SOL-ORCA",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "558efc67-8544-434b-bf15-ea152f5c5e1d",
+      "tvl": 630614
+    },
+    "solana:4420a9de-a883-4ba9-a4c6-4ed12734ab94": {
+      "name": "SOL-BONK",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4420a9de-a883-4ba9-a4c6-4ed12734ab94",
+      "tvl": 598919
+    },
+    "solana:2af1f5e4-cf71-41e9-8bf6-7406ca4689ad": {
+      "name": "BNSOL-SOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "2af1f5e4-cf71-41e9-8bf6-7406ca4689ad",
+      "tvl": 590891
+    },
+    "solana:26536872-0af7-423c-9ff5-91c410d2d49c": {
+      "name": "WHETH-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "26536872-0af7-423c-9ff5-91c410d2d49c",
+      "tvl": 585839
+    },
+    "solana:ec23484d-7167-4b11-bfd0-e77d54bfa498": {
+      "name": "SOL-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "ec23484d-7167-4b11-bfd0-e77d54bfa498",
+      "tvl": 578845
+    },
+    "solana:d6ebdcd6-3faa-4a6c-bdb2-47c140ba01d9": {
+      "name": "SOL-RAY",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d6ebdcd6-3faa-4a6c-bdb2-47c140ba01d9",
+      "tvl": 551011
+    },
+    "solana:befed6fb-7c93-4ad9-b2d2-9b30fb3aeb82": {
+      "name": "WFRAGJTO-JTO",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "befed6fb-7c93-4ad9-b2d2-9b30fb3aeb82",
+      "tvl": 541260
+    },
+    "solana:b7a1a99f-8497-442b-b935-1ef118fc7839": {
+      "name": "META-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b7a1a99f-8497-442b-b935-1ef118fc7839",
+      "tvl": 533771
+    },
+    "solana:a7a90058-d8af-4e07-b3a2-c2ffc56fd596": {
+      "name": "SOL-$WIF",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "a7a90058-d8af-4e07-b3a2-c2ffc56fd596",
+      "tvl": 528316
+    },
+    "solana:cc175543-d1b2-4b09-8fa5-c3e6e528c908": {
+      "name": "SOL-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "cc175543-d1b2-4b09-8fa5-c3e6e528c908",
+      "tvl": 521034
+    },
+    "solana:d1434538-5f71-4743-8ac4-5bdd43d0b717": {
+      "name": "SOL-SPDR",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d1434538-5f71-4743-8ac4-5bdd43d0b717",
+      "tvl": 510954
+    },
+    "solana:b8502205-105c-411c-8158-fd120fbd4c25": {
+      "name": "SOL-VSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b8502205-105c-411c-8158-fd120fbd4c25",
+      "tvl": 481910
+    },
+    "solana:78110730-cd1c-432a-bc06-c2eed825e841": {
+      "name": "SOL-BONK",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "78110730-cd1c-432a-bc06-c2eed825e841",
+      "tvl": 469113
+    },
+    "solana:0ee2707a-746f-4ab7-9eb4-b5e7af658489": {
+      "name": "JLP-WBTC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "0ee2707a-746f-4ab7-9eb4-b5e7af658489",
+      "tvl": 463342
+    },
+    "solana:8a2fa38b-a6f6-4536-8f66-32d754708605": {
+      "name": "AURY-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "8a2fa38b-a6f6-4536-8f66-32d754708605",
+      "tvl": 457106
+    },
+    "solana:d82aa4e0-25a0-40bc-9012-0373768c3431": {
+      "name": "BLOCK-SOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "d82aa4e0-25a0-40bc-9012-0373768c3431",
+      "tvl": 444568
+    },
+    "solana:be912298-d7d4-4641-8029-624ed7ef86d7": {
+      "name": "SOL-$GOAT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "be912298-d7d4-4641-8029-624ed7ef86d7",
+      "tvl": 432190
+    },
+    "solana:a4b1ea6e-b28c-42c8-9f8a-edbe63eaa33a": {
+      "name": "SOL-FARTCOIN",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "a4b1ea6e-b28c-42c8-9f8a-edbe63eaa33a",
+      "tvl": 427053
+    },
+    "solana:79756680-dc79-4aee-a0ee-ee372b96e960": {
+      "name": "USDS-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "79756680-dc79-4aee-a0ee-ee372b96e960",
+      "tvl": 422292
+    },
+    "solana:9612e5c5-afd0-439b-a25b-02fa86e56205": {
+      "name": "HNT-MOBILE",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "9612e5c5-afd0-439b-a25b-02fa86e56205",
+      "tvl": 419041
+    },
+    "solana:b38ac654-a364-499c-92c5-f7a8cb123e83": {
+      "name": "GOMINING-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b38ac654-a364-499c-92c5-f7a8cb123e83",
+      "tvl": 414918
+    },
+    "solana:39e3dad7-6ca1-40c6-9104-b5c7acbb1f3f": {
+      "name": "EPCT-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "39e3dad7-6ca1-40c6-9104-b5c7acbb1f3f",
+      "tvl": 389622
+    },
+    "solana:82981a9b-8c83-4abf-886d-7dd24eb19fcc": {
+      "name": "SOL-WUF",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "82981a9b-8c83-4abf-886d-7dd24eb19fcc",
+      "tvl": 370437
+    },
+    "solana:c6964877-52dc-423e-96a3-1788984a6aaa": {
+      "name": "USDC-SPX",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "c6964877-52dc-423e-96a3-1788984a6aaa",
+      "tvl": 356000
+    },
+    "solana:af10d18b-97f9-49a0-b110-7bb943f650e3": {
+      "name": "SOL-HNT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "af10d18b-97f9-49a0-b110-7bb943f650e3",
+      "tvl": 350735
+    },
+    "solana:14f7b33e-15ce-4eef-9f82-dfe53b4503a0": {
+      "name": "BSOL-MSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "14f7b33e-15ce-4eef-9f82-dfe53b4503a0",
+      "tvl": 344055
+    },
+    "solana:65671223-620d-40c0-913e-9b395dd42895": {
+      "name": "BSOL-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "65671223-620d-40c0-913e-9b395dd42895",
+      "tvl": 329576
+    },
+    "solana:1d969a93-7051-49a4-99d7-f3470d26448a": {
+      "name": "SOL-BNB",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "1d969a93-7051-49a4-99d7-f3470d26448a",
+      "tvl": 319433
+    },
+    "solana:442c9d1e-7337-43b5-8f56-ac39e1890eb6": {
+      "name": "AUDIO-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "442c9d1e-7337-43b5-8f56-ac39e1890eb6",
+      "tvl": 313694
+    },
+    "solana:aa5dcd60-e1e3-402d-9e1a-9c5d27a67993": {
+      "name": "SOL-MSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "aa5dcd60-e1e3-402d-9e1a-9c5d27a67993",
+      "tvl": 312265
+    },
+    "solana:97bc4de2-3d88-431d-adf3-62c2acc1d362": {
+      "name": "SOL-ARC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "97bc4de2-3d88-431d-adf3-62c2acc1d362",
+      "tvl": 312202
+    },
+    "solana:936da158-eab5-4eff-9d19-54412c41ca4d": {
+      "name": "NYAN-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "936da158-eab5-4eff-9d19-54412c41ca4d",
+      "tvl": 310680
+    },
+    "solana:8df631ab-3d24-476b-af59-758784f28188": {
+      "name": "SOL-USDT",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "8df631ab-3d24-476b-af59-758784f28188",
+      "tvl": 292210
+    },
+    "solana:4c652d22-b1e0-4aa0-acde-748f004547ad": {
+      "name": "SOL-MOBILE",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4c652d22-b1e0-4aa0-acde-748f004547ad",
+      "tvl": 268975
+    },
+    "solana:cf61a0d2-a2a3-4f70-bd29-8f21ec9f555e": {
+      "name": "SOL-APING",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "cf61a0d2-a2a3-4f70-bd29-8f21ec9f555e",
+      "tvl": 258343
+    },
+    "solana:4474e130-e889-4ad9-996b-7ceb7efbbfc0": {
+      "name": "VEUR-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "4474e130-e889-4ad9-996b-7ceb7efbbfc0",
+      "tvl": 251613
+    },
+    "solana:bde4a0db-f7f6-4a96-99ec-9fa4c6fa8c90": {
+      "name": "RENDER-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "bde4a0db-f7f6-4a96-99ec-9fa4c6fa8c90",
+      "tvl": 251504
+    },
+    "solana:bc4acd8c-471f-4e53-979d-d28bf7b8fe1b": {
+      "name": "W-JITOSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "bc4acd8c-471f-4e53-979d-d28bf7b8fe1b",
+      "tvl": 251155
+    },
+    "solana:9684e9cb-6f54-4cb8-9582-b57eb3df235b": {
+      "name": "SOL-STRONGSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "9684e9cb-6f54-4cb8-9582-b57eb3df235b",
+      "tvl": 237725
+    },
+    "solana:dec33279-ae35-4ff8-8d69-2ecd3c8a3da5": {
+      "name": "WBTC-WHETH",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "dec33279-ae35-4ff8-8d69-2ecd3c8a3da5",
+      "tvl": 237078
+    },
+    "solana:710420bd-8f3a-4fb8-b970-9b2c5b418460": {
+      "name": "SOL-TURBO",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "710420bd-8f3a-4fb8-b970-9b2c5b418460",
+      "tvl": 235435
+    },
+    "solana:385473c0-2fc6-4891-9732-bca57e4a1963": {
+      "name": "SOL-WFRAGSOL",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "385473c0-2fc6-4891-9732-bca57e4a1963",
+      "tvl": 234953
+    },
+    "solana:6f6e6e09-d9e1-461a-bdc6-983953ffbdf4": {
+      "name": "BNB-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "6f6e6e09-d9e1-461a-bdc6-983953ffbdf4",
+      "tvl": 225419
+    },
+    "solana:87ad7057-2a20-40e3-b21b-74dc6be22886": {
+      "name": "SOL-ALEPH",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "87ad7057-2a20-40e3-b21b-74dc6be22886",
+      "tvl": 225160
+    },
+    "solana:bfad83ba-75b2-4b7c-bb0f-928276240137": {
+      "name": "USDC-FIDA",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "bfad83ba-75b2-4b7c-bb0f-928276240137",
+      "tvl": 224836
+    },
+    "solana:09c96c11-288a-4043-8d6a-da8481ad11ab": {
+      "name": "21BTC-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "09c96c11-288a-4043-8d6a-da8481ad11ab",
+      "tvl": 219585
+    },
+    "solana:90fc840b-0528-4b38-8bdd-e472f73d6583": {
+      "name": "POLIS-ATLAS",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "90fc840b-0528-4b38-8bdd-e472f73d6583",
+      "tvl": 211668
+    },
+    "solana:5e90e4a7-5571-427b-bd76-74ff68392336": {
+      "name": "SOL-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "5e90e4a7-5571-427b-bd76-74ff68392336",
+      "tvl": 211629
+    },
+    "solana:b530516f-3574-44f0-be80-f6dbe6597304": {
+      "name": "VCHF-USDC",
+      "protocol": "orca",
+      "chain": "Solana",
+      "address": "b530516f-3574-44f0-be80-f6dbe6597304",
+      "tvl": 210259
+    },
+    "base:bc33d1ea-f566-40eb-b0a8-8d8dcf425f18": {
+      "name": "WETH-OETHB",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "bc33d1ea-f566-40eb-b0a8-8d8dcf425f18",
+      "tvl": 814951158
+    },
+    "base:10137e20-efbc-4e15-a733-17ecb52c48e8": {
+      "name": "WETH-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "10137e20-efbc-4e15-a733-17ecb52c48e8",
+      "tvl": 120502006
+    },
+    "base:4943b6d2-aad2-4f4d-b56e-93f41ef043aa": {
+      "name": "WETH-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "4943b6d2-aad2-4f4d-b56e-93f41ef043aa",
+      "tvl": 49762819
+    },
+    "base:ff82c362-dea1-4946-b3b1-92ebd5100b1e": {
+      "name": "USDC-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ff82c362-dea1-4946-b3b1-92ebd5100b1e",
+      "tvl": 34838818
+    },
+    "base:6af528a8-5b88-4835-99c2-d83d8d7954c9": {
+      "name": "WETH-AERO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "6af528a8-5b88-4835-99c2-d83d8d7954c9",
+      "tvl": 18394333
+    },
+    "base:4304484b-d197-45d5-8d53-39c52b139377": {
+      "name": "VIRTUAL-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "4304484b-d197-45d5-8d53-39c52b139377",
+      "tvl": 11345145
+    },
+    "base:e46e7064-000d-4a28-8771-aa52be687c7f": {
+      "name": "TBTC-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "e46e7064-000d-4a28-8771-aa52be687c7f",
+      "tvl": 9844888
+    },
+    "base:e92866f1-3247-444c-ac96-432f461a72e5": {
+      "name": "WETH-BRETT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "e92866f1-3247-444c-ac96-432f461a72e5",
+      "tvl": 9334031
+    },
+    "base:e9506d80-6c03-484e-99f2-6be4a8a62647": {
+      "name": "USDC-USD+",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "e9506d80-6c03-484e-99f2-6be4a8a62647",
+      "tvl": 8746524
+    },
+    "base:bf599ba2-97ae-48bb-9fd0-4f647ad7a832": {
+      "name": "USDC-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "bf599ba2-97ae-48bb-9fd0-4f647ad7a832",
+      "tvl": 7888930
+    },
+    "base:ff009fa1-2dda-43e0-a0e2-302787e736c8": {
+      "name": "CBBTC-LBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ff009fa1-2dda-43e0-a0e2-302787e736c8",
+      "tvl": 6615044
+    },
+    "base:31ed7657-e02c-427b-8e3e-c0bf24e6cb9b": {
+      "name": "USDC-AERO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "31ed7657-e02c-427b-8e3e-c0bf24e6cb9b",
+      "tvl": 6482266
+    },
+    "base:dc5b6771-96a6-4b38-b1c3-912544c23899": {
+      "name": "CBETH-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "dc5b6771-96a6-4b38-b1c3-912544c23899",
+      "tvl": 6350629
+    },
+    "base:08e1a166-5366-4f57-bef8-76acb53699f0": {
+      "name": "WETH-MSETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "08e1a166-5366-4f57-bef8-76acb53699f0",
+      "tvl": 6036298
+    },
+    "base:53b7036a-ec2a-494b-ad8e-ae53f35c20b8": {
+      "name": "AERO-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "53b7036a-ec2a-494b-ad8e-ae53f35c20b8",
+      "tvl": 5891069
+    },
+    "base:05bd3778-2cb9-424d-a4bc-5707f8612a75": {
+      "name": "WETH-WSTETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "05bd3778-2cb9-424d-a4bc-5707f8612a75",
+      "tvl": 5860993
+    },
+    "base:aae6cc3a-783b-4a76-bea7-c3edccd28d62": {
+      "name": "MSUSD-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "aae6cc3a-783b-4a76-bea7-c3edccd28d62",
+      "tvl": 5695477
+    },
+    "base:5c22913b-4d5b-456c-a6f5-21ac2cb26b2a": {
+      "name": "USDC-CDXUSD",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "5c22913b-4d5b-456c-a6f5-21ac2cb26b2a",
+      "tvl": 5122753
+    },
+    "base:847c874f-d4e7-47ed-8870-97d2f24a8767": {
+      "name": "EURC-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "847c874f-d4e7-47ed-8870-97d2f24a8767",
+      "tvl": 4895628
+    },
+    "base:2641aaa3-d441-4718-b638-029d09ca1d14": {
+      "name": "WETH-AAVE",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "2641aaa3-d441-4718-b638-029d09ca1d14",
+      "tvl": 4208111
+    },
+    "base:f884e3f7-f6e1-4b9e-b041-8624411ccddf": {
+      "name": "WETH-MORPHO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "f884e3f7-f6e1-4b9e-b041-8624411ccddf",
+      "tvl": 3902681
+    },
+    "base:59cb4a93-c76c-444b-9f68-05beb59d8dad": {
+      "name": "WETH-AIXBT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "59cb4a93-c76c-444b-9f68-05beb59d8dad",
+      "tvl": 3690800
+    },
+    "base:db803811-64cd-49ad-a08e-f2a28f4209cc": {
+      "name": "WETH-USD+",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "db803811-64cd-49ad-a08e-f2a28f4209cc",
+      "tvl": 3611476
+    },
+    "base:b3757010-3714-4bd6-b1dc-cf8b11a90e5c": {
+      "name": "USDC-BTCUSD",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "b3757010-3714-4bd6-b1dc-cf8b11a90e5c",
+      "tvl": 3561935
+    },
+    "base:ee21c420-e7aa-442b-b020-aa0ad800c845": {
+      "name": "ZORA-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ee21c420-e7aa-442b-b020-aa0ad800c845",
+      "tvl": 3433519
+    },
+    "base:ba557f7e-f287-45a9-bc37-8f3a24ca05c7": {
+      "name": "USDC-USDT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ba557f7e-f287-45a9-bc37-8f3a24ca05c7",
+      "tvl": 3254576
+    },
+    "base:209767d1-1e76-4d5c-a824-7b6bb9008bb3": {
+      "name": "WETH-EURC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "209767d1-1e76-4d5c-a824-7b6bb9008bb3",
+      "tvl": 3114240
+    },
+    "base:cf22ab20-25de-4d5f-9ffa-aaa284dc7d35": {
+      "name": "WETH-USUI",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "cf22ab20-25de-4d5f-9ffa-aaa284dc7d35",
+      "tvl": 2878970
+    },
+    "base:778c6d99-9148-4f58-91a7-11232060b95f": {
+      "name": "WETH-SPX",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "778c6d99-9148-4f58-91a7-11232060b95f",
+      "tvl": 2812138
+    },
+    "base:64af7438-4b30-4f29-b92e-04da74fcc7dc": {
+      "name": "MAMO-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "64af7438-4b30-4f29-b92e-04da74fcc7dc",
+      "tvl": 2768034
+    },
+    "base:7e7146ae-3146-4bf3-8d7b-67f618791b83": {
+      "name": "WETH-KTA",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "7e7146ae-3146-4bf3-8d7b-67f618791b83",
+      "tvl": 2670932
+    },
+    "base:877ebb7b-2328-40e3-bbfb-ca6d86cb8e18": {
+      "name": "WETH-B3",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "877ebb7b-2328-40e3-bbfb-ca6d86cb8e18",
+      "tvl": 2664433
+    },
+    "base:8b9364e9-c90f-4fe0-ab3e-21667884e71c": {
+      "name": "GIZA-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "8b9364e9-c90f-4fe0-ab3e-21667884e71c",
+      "tvl": 2607477
+    },
+    "base:04e75569-5a9d-4000-8ca0-49ed53e17d8a": {
+      "name": "MOG-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "04e75569-5a9d-4000-8ca0-49ed53e17d8a",
+      "tvl": 2602255
+    },
+    "base:35ac31e6-8398-4ad7-a0af-3374482de112": {
+      "name": "USDZ-SUSDZ",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "35ac31e6-8398-4ad7-a0af-3374482de112",
+      "tvl": 2538770
+    },
+    "base:6e7d0984-9a39-4619-86e2-13b9aae221b8": {
+      "name": "WETH-ZEN",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "6e7d0984-9a39-4619-86e2-13b9aae221b8",
+      "tvl": 2527138
+    },
+    "base:dd8c11fb-4e20-4d65-83ff-6f652ed54750": {
+      "name": "VIRTUAL-MAMO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "dd8c11fb-4e20-4d65-83ff-6f652ed54750",
+      "tvl": 2386897
+    },
+    "base:35045529-e137-4bf0-890f-03b7fdcd3e4b": {
+      "name": "CBXRP-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "35045529-e137-4bf0-890f-03b7fdcd3e4b",
+      "tvl": 2331095
+    },
+    "base:991b37f9-447b-4282-bb1a-c1cff2220b46": {
+      "name": "WETH-CBADA",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "991b37f9-447b-4282-bb1a-c1cff2220b46",
+      "tvl": 2313880
+    },
+    "base:983a729d-ac5f-47f2-9a51-438e491eb94a": {
+      "name": "WSTETH-WRSETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "983a729d-ac5f-47f2-9a51-438e491eb94a",
+      "tvl": 2273689
+    },
+    "base:d58103de-0eea-4690-99c1-eceb1826d860": {
+      "name": "WETH-CBLTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d58103de-0eea-4690-99c1-eceb1826d860",
+      "tvl": 1975073
+    },
+    "base:a426dd28-dbe8-4686-ab07-bd25c89c75e2": {
+      "name": "WETH-SKI",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "a426dd28-dbe8-4686-ab07-bd25c89c75e2",
+      "tvl": 1907181
+    },
+    "base:a09feb82-76db-4291-aea9-dc6e88343e09": {
+      "name": "WETH-USOL",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "a09feb82-76db-4291-aea9-dc6e88343e09",
+      "tvl": 1895468
+    },
+    "base:66dac3bb-be33-4e22-9b35-77f05e492a7d": {
+      "name": "WETH-BSDETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "66dac3bb-be33-4e22-9b35-77f05e492a7d",
+      "tvl": 1868066
+    },
+    "base:d87275b5-c6f2-48be-bcf0-23a87cab80ec": {
+      "name": "VIRTUAL-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d87275b5-c6f2-48be-bcf0-23a87cab80ec",
+      "tvl": 1854974
+    },
+    "base:913c44c2-5b5c-4dd8-9961-f1d1c112cee2": {
+      "name": "CBBTC-ZEN",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "913c44c2-5b5c-4dd8-9961-f1d1c112cee2",
+      "tvl": 1849376
+    },
+    "base:9ba94de9-23f2-4089-bf97-b8a2e42f177d": {
+      "name": "USDC-GHST",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "9ba94de9-23f2-4089-bf97-b8a2e42f177d",
+      "tvl": 1836583
+    },
+    "base:16f57370-96da-46f5-af56-febc5f3296aa": {
+      "name": "WETH-CBXRP",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "16f57370-96da-46f5-af56-febc5f3296aa",
+      "tvl": 1797103
+    },
+    "base:674284ff-72e3-4c27-9835-f5ec7833f899": {
+      "name": "WETH-TOSHI",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "674284ff-72e3-4c27-9835-f5ec7833f899",
+      "tvl": 1788919
+    },
+    "base:7698898e-f516-45e6-a705-257c7da0be5a": {
+      "name": "XPUFETH-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "7698898e-f516-45e6-a705-257c7da0be5a",
+      "tvl": 1750100
+    },
+    "base:aeb97af6-bd75-4a34-975b-9166427a0ce3": {
+      "name": "USDC-EUSD",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "aeb97af6-bd75-4a34-975b-9166427a0ce3",
+      "tvl": 1745067
+    },
+    "base:94b37203-fcba-41e8-97e8-cbb0f92a2f41": {
+      "name": "WETH-DEGEN",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "94b37203-fcba-41e8-97e8-cbb0f92a2f41",
+      "tvl": 1739503
+    },
+    "base:5976df72-17ff-4813-95ee-4f152d17c9c6": {
+      "name": "WETH-CBDOGE",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "5976df72-17ff-4813-95ee-4f152d17c9c6",
+      "tvl": 1724554
+    },
+    "base:49d6cc94-f311-447b-9de2-d44be06b9637": {
+      "name": "CLANKER-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "49d6cc94-f311-447b-9de2-d44be06b9637",
+      "tvl": 1713296
+    },
+    "base:eb798825-7007-466d-b9f5-a30e7d0eb6ad": {
+      "name": "TBTC-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "eb798825-7007-466d-b9f5-a30e7d0eb6ad",
+      "tvl": 1600327
+    },
+    "base:1e950c05-28ff-458a-b8bb-160697d6d751": {
+      "name": "WETH-COOKIE",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1e950c05-28ff-458a-b8bb-160697d6d751",
+      "tvl": 1593855
+    },
+    "base:e96c24c3-ebf1-41f8-a11b-acba75501579": {
+      "name": "MAMO-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "e96c24c3-ebf1-41f8-a11b-acba75501579",
+      "tvl": 1476142
+    },
+    "base:1d62cf0f-0777-4158-ab95-c1456cabab4f": {
+      "name": "AERO-WSTETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1d62cf0f-0777-4158-ab95-c1456cabab4f",
+      "tvl": 1470782
+    },
+    "base:57564e54-de10-4926-86f9-c40b61064404": {
+      "name": "WETH-REI",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "57564e54-de10-4926-86f9-c40b61064404",
+      "tvl": 1465242
+    },
+    "base:ee8fbbb9-9fb4-41f5-91da-fffbf295297d": {
+      "name": "WETH-AAA",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ee8fbbb9-9fb4-41f5-91da-fffbf295297d",
+      "tvl": 1449994
+    },
+    "base:b1b24298-d957-48cb-ae63-ae43d7b7ef86": {
+      "name": "WETH-MAMO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "b1b24298-d957-48cb-ae63-ae43d7b7ef86",
+      "tvl": 1381245
+    },
+    "base:1ae64f0c-2142-48ca-bffb-55e53b972769": {
+      "name": "WETH-HOME",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1ae64f0c-2142-48ca-bffb-55e53b972769",
+      "tvl": 1272092
+    },
+    "base:ba7d8792-49fa-440b-bfa2-c468de0a5fa5": {
+      "name": "USDC-AAA",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ba7d8792-49fa-440b-bfa2-c468de0a5fa5",
+      "tvl": 1263619
+    },
+    "base:577caee3-254c-405d-a642-17e6b47a52b6": {
+      "name": "WETH-USDT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "577caee3-254c-405d-a642-17e6b47a52b6",
+      "tvl": 1252223
+    },
+    "base:1f1665b0-c6de-4ac6-a533-33f9b53476ce": {
+      "name": "TBTC-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1f1665b0-c6de-4ac6-a533-33f9b53476ce",
+      "tvl": 1248585
+    },
+    "base:109edf93-6705-4ed3-a86b-e6b66b14fe36": {
+      "name": "WBLT-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "109edf93-6705-4ed3-a86b-e6b66b14fe36",
+      "tvl": 1229522
+    },
+    "base:d7b0af87-0dba-4f48-8505-c801fccad673": {
+      "name": "BNKR-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d7b0af87-0dba-4f48-8505-c801fccad673",
+      "tvl": 1185801
+    },
+    "base:2a234e3e-5624-4537-8a50-1891254f0473": {
+      "name": "CBBTC-CBDOGE",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "2a234e3e-5624-4537-8a50-1891254f0473",
+      "tvl": 1143079
+    },
+    "base:6d4ab01f-35cb-45e1-a89b-4a67feba9ce6": {
+      "name": "WETH-KEYCAT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "6d4ab01f-35cb-45e1-a89b-4a67feba9ce6",
+      "tvl": 1125634
+    },
+    "base:789b34d1-5b2f-4ae0-ae31-58afa527afd9": {
+      "name": "WETH-RSC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "789b34d1-5b2f-4ae0-ae31-58afa527afd9",
+      "tvl": 1066140
+    },
+    "base:de6728b0-3ca6-4791-8ff7-94ad7aa44801": {
+      "name": "USDC-SAPIEN",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "de6728b0-3ca6-4791-8ff7-94ad7aa44801",
+      "tvl": 1050072
+    },
+    "base:ab799ae3-3813-44c6-82de-122813bf61e6": {
+      "name": "WETH-DOGINME",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ab799ae3-3813-44c6-82de-122813bf61e6",
+      "tvl": 1014835
+    },
+    "base:ebbea9be-5a51-4e12-a113-d8524b3fc2dd": {
+      "name": "WETH-VVV",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ebbea9be-5a51-4e12-a113-d8524b3fc2dd",
+      "tvl": 1011159
+    },
+    "base:b24d7327-6411-496e-a2d5-2c2eb322cabb": {
+      "name": "WETH-ZFI",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "b24d7327-6411-496e-a2d5-2c2eb322cabb",
+      "tvl": 1009457
+    },
+    "base:e9493cad-d31b-4c1c-9a16-6ed0e726e644": {
+      "name": "WETH-WOO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "e9493cad-d31b-4c1c-9a16-6ed0e726e644",
+      "tvl": 995807
+    },
+    "base:f1fde023-109b-4c6e-ab69-4d64e1ca7bec": {
+      "name": "WETH-WELL",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "f1fde023-109b-4c6e-ab69-4d64e1ca7bec",
+      "tvl": 971038
+    },
+    "base:f65fb45a-2daa-4528-b9bf-253ffd231dbe": {
+      "name": "GAME-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "f65fb45a-2daa-4528-b9bf-253ffd231dbe",
+      "tvl": 966599
+    },
+    "base:996c39bb-3aa3-491b-abec-bfaa4cbae71c": {
+      "name": "USDC-DEJAAA",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "996c39bb-3aa3-491b-abec-bfaa4cbae71c",
+      "tvl": 965695
+    },
+    "base:1ef87c98-934d-4a00-b803-635059e5105b": {
+      "name": "WETH-RWAX",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1ef87c98-934d-4a00-b803-635059e5105b",
+      "tvl": 941572
+    },
+    "base:a3e2eb64-d306-485a-aa87-7562bf61c5ff": {
+      "name": "UXRP-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "a3e2eb64-d306-485a-aa87-7562bf61c5ff",
+      "tvl": 913764
+    },
+    "base:c969049a-a808-42c9-a177-079ed8a55258": {
+      "name": "WETH-KAITO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "c969049a-a808-42c9-a177-079ed8a55258",
+      "tvl": 908656
+    },
+    "base:d88f6c28-38d8-4962-b041-98a481776a99": {
+      "name": "WETH-VVV",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d88f6c28-38d8-4962-b041-98a481776a99",
+      "tvl": 900141
+    },
+    "base:ffc4d7b3-5c6a-4432-a32e-aa2efb5e0221": {
+      "name": "WETH-ZRO",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "ffc4d7b3-5c6a-4432-a32e-aa2efb5e0221",
+      "tvl": 896503
+    },
+    "base:646151d4-3123-417a-8b98-0b490df03d8b": {
+      "name": "WETH-SIGN",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "646151d4-3123-417a-8b98-0b490df03d8b",
+      "tvl": 863982
+    },
+    "base:acc2047c-b479-4efd-97a9-1f65781da2b7": {
+      "name": "USDS-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "acc2047c-b479-4efd-97a9-1f65781da2b7",
+      "tvl": 851117
+    },
+    "base:dd4273f8-bda0-445d-a0bf-5933e9332672": {
+      "name": "WETH-TIBBIR",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "dd4273f8-bda0-445d-a0bf-5933e9332672",
+      "tvl": 836001
+    },
+    "base:00899fee-2b90-4ba4-bbb9-5d4bbf281e56": {
+      "name": "CBLTC-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "00899fee-2b90-4ba4-bbb9-5d4bbf281e56",
+      "tvl": 818245
+    },
+    "base:4c6728fb-173a-43c5-9916-1d7cb0871173": {
+      "name": "EURC-USDC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "4c6728fb-173a-43c5-9916-1d7cb0871173",
+      "tvl": 795419
+    },
+    "base:25d55d94-908f-4166-98e1-923189359a7a": {
+      "name": "WETH-RDNT",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "25d55d94-908f-4166-98e1-923189359a7a",
+      "tvl": 790492
+    },
+    "base:2e0a683f-5434-4ead-8fc4-bf4a7b119e13": {
+      "name": "COPI-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "2e0a683f-5434-4ead-8fc4-bf4a7b119e13",
+      "tvl": 785507
+    },
+    "base:72c5a43f-e10a-40ee-b472-68b383297fbe": {
+      "name": "WETH-LINK",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "72c5a43f-e10a-40ee-b472-68b383297fbe",
+      "tvl": 730164
+    },
+    "base:d9ed48f0-1fe9-4ea4-81f9-d8b3e8691eae": {
+      "name": "USOL-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d9ed48f0-1fe9-4ea4-81f9-d8b3e8691eae",
+      "tvl": 716176
+    },
+    "base:7fd3c32e-ab14-42a4-85d0-2fc332b2c41d": {
+      "name": "WETH-MIGGLES",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "7fd3c32e-ab14-42a4-85d0-2fc332b2c41d",
+      "tvl": 704348
+    },
+    "base:182ee718-490a-4c41-8a59-a108827a6de1": {
+      "name": "WETH-SOON",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "182ee718-490a-4c41-8a59-a108827a6de1",
+      "tvl": 701230
+    },
+    "base:145ca243-2a20-48f4-bc20-88515fa23dd1": {
+      "name": "WETH-PENDLE",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "145ca243-2a20-48f4-bc20-88515fa23dd1",
+      "tvl": 700576
+    },
+    "base:6d541f92-1adc-418f-8e50-c6e33dc9c659": {
+      "name": "OUSDT-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "6d541f92-1adc-418f-8e50-c6e33dc9c659",
+      "tvl": 697087
+    },
+    "base:4410a5ad-f0a4-47fc-8c37-15b7056d1c94": {
+      "name": "WEETH-WETH",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "4410a5ad-f0a4-47fc-8c37-15b7056d1c94",
+      "tvl": 683856
+    },
+    "base:1f8e1921-3a20-40b0-a420-ef547c6cf62b": {
+      "name": "USDC-ZCHF",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "1f8e1921-3a20-40b0-a420-ef547c6cf62b",
+      "tvl": 669537
+    },
+    "base:d30e0e26-ddc7-4629-9172-76dfea45ba96": {
+      "name": "WETH-ANON",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "d30e0e26-ddc7-4629-9172-76dfea45ba96",
+      "tvl": 666882
+    },
+    "base:dbf0ffbb-c795-47b1-8ae0-a525c480dbf9": {
+      "name": "CBADA-CBBTC",
+      "protocol": "aerodrome_slipstream",
+      "chain": "Base",
+      "address": "dbf0ffbb-c795-47b1-8ae0-a525c480dbf9",
+      "tvl": 654120
+    },
+    "base:e8cb4dbb-9e66-4cfa-9c77-407118b128a0": {
+      "name": "WETH-USDC",
+      "protocol": "aerodrome_v1",
+      "chain": "Base",
+      "address": "e8cb4dbb-9e66-4cfa-9c77-407118b128a0",
+      "tvl": 21893307
+    },
+    "base:69c0fc74-dee5-4c60-9aed-a593661d54ea": {
+      "name": "WETH-AERO",
+      "protocol": "aerodrome_v1",
+      "chain": "Base",
+      "address": "69c0fc74-dee5-4c60-9aed-a593661d54ea",
+      "tvl": 7868485
+    },
+    "base:3d712e01-46cd-46fa-a50c-05a224f33700": {
+      "name": "USDC-USDBC",
+      "protocol": "aerodrome_v1",
+      "chain": "Base",
+      "address": "3d712e01-46cd-46fa-a50c-05a224f33700",
+      "tvl": 82768
+    },
+    "base:290c5357-973a-45a0-bee2-e715374f9441": {
+      "name": "WETH-USDC",
+      "protocol": "aerodrome_v1",
+      "chain": "Base",
+      "address": "290c5357-973a-45a0-bee2-e715374f9441",
+      "tvl": 42362
+    },
+    "base:f858ea7d-3720-4a26-b3a7-f9923d5de604": {
+      "name": "BORPA-WETH",
+      "protocol": "aerodrome_v1",
+      "chain": "Base",
+      "address": "f858ea7d-3720-4a26-b3a7-f9923d5de604",
+      "tvl": 15495
+    },
+    "sui:1249e3d1-af05-4308-a9d8-75127ec2e4c2": {
+      "name": "USDC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "1249e3d1-af05-4308-a9d8-75127ec2e4c2",
+      "tvl": 20405498
+    },
+    "sui:0aa735e0-4cef-4b56-87ea-f75919b2bab0": {
+      "name": "HASUI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "0aa735e0-4cef-4b56-87ea-f75919b2bab0",
+      "tvl": 20096345
+    },
+    "sui:8b8c020c-9472-4085-9762-bdda1ab72ba0": {
+      "name": "USDC-SUIUSDT",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "8b8c020c-9472-4085-9762-bdda1ab72ba0",
+      "tvl": 11063290
+    },
+    "sui:7f0299d7-e03a-4914-933c-abc994c17086": {
+      "name": "USDC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "7f0299d7-e03a-4914-933c-abc994c17086",
+      "tvl": 6426845
+    },
+    "sui:6f3e9e74-849f-483e-baca-3bacfd01644e": {
+      "name": "USDC-BUCK",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "6f3e9e74-849f-483e-baca-3bacfd01644e",
+      "tvl": 4356173
+    },
+    "sui:054de9b8-3470-480e-ab7a-f089213b7b07": {
+      "name": "CETUS-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "054de9b8-3470-480e-ab7a-f089213b7b07",
+      "tvl": 3140743
+    },
+    "sui:39b502cc-d1f2-4c44-8725-c03c04b60864": {
+      "name": "DEEP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "39b502cc-d1f2-4c44-8725-c03c04b60864",
+      "tvl": 2490139
+    },
+    "sui:09623b9b-e4f4-4081-8c70-cc8a7b2d7e06": {
+      "name": "USDC-ETH",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "09623b9b-e4f4-4081-8c70-cc8a7b2d7e06",
+      "tvl": 2245696
+    },
+    "sui:187a4585-19b3-4b85-b7ed-147bf4e04cc1": {
+      "name": "USDC-HAEDAL",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "187a4585-19b3-4b85-b7ed-147bf4e04cc1",
+      "tvl": 1572583
+    },
+    "sui:3d5a0f12-4a68-4429-a109-df4a3fafddc5": {
+      "name": "USDC-USDY",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "3d5a0f12-4a68-4429-a109-df4a3fafddc5",
+      "tvl": 1359685
+    },
+    "sui:593f459f-867e-40c5-9f8a-4724dfaa5bfc": {
+      "name": "WAL-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "593f459f-867e-40c5-9f8a-4724dfaa5bfc",
+      "tvl": 1202282
+    },
+    "sui:69c7107f-4db7-4800-b61e-5de3d3ce82df": {
+      "name": "HIPPO-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "69c7107f-4db7-4800-b61e-5de3d3ce82df",
+      "tvl": 1199491
+    },
+    "sui:a7b9339b-7dc0-4547-b2ea-c099616ee4c3": {
+      "name": "FDUSD-USDC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "a7b9339b-7dc0-4547-b2ea-c099616ee4c3",
+      "tvl": 1019162
+    },
+    "sui:b3026a92-47fb-4533-97fb-36c0b8fcaeef": {
+      "name": "USDC-CETUS",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "b3026a92-47fb-4533-97fb-36c0b8fcaeef",
+      "tvl": 989033
+    },
+    "sui:93c79626-291e-4243-9e93-a21202d980b2": {
+      "name": "STBTC-WBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "93c79626-291e-4243-9e93-a21202d980b2",
+      "tvl": 855959
+    },
+    "sui:0e1d941c-515d-4e55-9010-3f092ca7aa34": {
+      "name": "ALKIMI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "0e1d941c-515d-4e55-9010-3f092ca7aa34",
+      "tvl": 813786
+    },
+    "sui:02d43ed9-01b8-47ec-97ca-0059f9dfe9ff": {
+      "name": "USDC-AUSD",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "02d43ed9-01b8-47ec-97ca-0059f9dfe9ff",
+      "tvl": 764758
+    },
+    "sui:6bcf4d70-4a1e-425d-a37d-2377e9ff4d65": {
+      "name": "HASUI-HAEDAL",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "6bcf4d70-4a1e-425d-a37d-2377e9ff4d65",
+      "tvl": 739183
+    },
+    "sui:f51b07b7-fbf0-4aa8-90f6-c87fac186b9f": {
+      "name": "NAVX-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f51b07b7-fbf0-4aa8-90f6-c87fac186b9f",
+      "tvl": 647917
+    },
+    "sui:cf739f2b-8a62-4500-b7cb-b845c8f05fab": {
+      "name": "DEEP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "cf739f2b-8a62-4500-b7cb-b845c8f05fab",
+      "tvl": 617439
+    },
+    "sui:52128a2c-44d2-4616-8e36-f44539b80497": {
+      "name": "BLUB-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "52128a2c-44d2-4616-8e36-f44539b80497",
+      "tvl": 582502
+    },
+    "sui:f5be5e78-08b6-459a-b527-8b31e85929fa": {
+      "name": "WBTC-ENZOBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f5be5e78-08b6-459a-b527-8b31e85929fa",
+      "tvl": 480618
+    },
+    "sui:19480bbb-b68c-48a2-9376-63284de80a4c": {
+      "name": "SCA-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "19480bbb-b68c-48a2-9376-63284de80a4c",
+      "tvl": 464983
+    },
+    "sui:fd89eaee-77d3-480b-984f-c520de16af8b": {
+      "name": "WBTC-YBTC.B",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "fd89eaee-77d3-480b-984f-c520de16af8b",
+      "tvl": 420457
+    },
+    "sui:58eb1ad4-758f-407d-afc2-0b465b1e76a7": {
+      "name": "WUSDC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "58eb1ad4-758f-407d-afc2-0b465b1e76a7",
+      "tvl": 399677
+    },
+    "sui:f26b7f1a-b16c-4624-bc71-83fc298c88d2": {
+      "name": "LBTC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f26b7f1a-b16c-4624-bc71-83fc298c88d2",
+      "tvl": 398142
+    },
+    "sui:8ad5f517-88c7-40fb-8c7f-3371390c42b2": {
+      "name": "IKA-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "8ad5f517-88c7-40fb-8c7f-3371390c42b2",
+      "tvl": 395198
+    },
+    "sui:351758f4-6a12-492e-a897-f8da0abaa634": {
+      "name": "USDC-DMC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "351758f4-6a12-492e-a897-f8da0abaa634",
+      "tvl": 372222
+    },
+    "sui:1a19478c-4005-49b1-b519-40a702d23756": {
+      "name": "BUT-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "1a19478c-4005-49b1-b519-40a702d23756",
+      "tvl": 340007
+    },
+    "sui:8a574d46-f6e9-481f-a77b-87f4b527737e": {
+      "name": "WAL-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "8a574d46-f6e9-481f-a77b-87f4b527737e",
+      "tvl": 332203
+    },
+    "sui:d40bc38c-b0b3-4a2b-85ab-4dbc31e1a9e0": {
+      "name": "VSUI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d40bc38c-b0b3-4a2b-85ab-4dbc31e1a9e0",
+      "tvl": 306855
+    },
+    "sui:d86a2a97-bd3a-4f8b-8226-9fad83d043ac": {
+      "name": "USDC-WBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d86a2a97-bd3a-4f8b-8226-9fad83d043ac",
+      "tvl": 278380
+    },
+    "sui:ac27b221-cdfd-42ce-9960-43b3f635e38d": {
+      "name": "WBTC-WBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "ac27b221-cdfd-42ce-9960-43b3f635e38d",
+      "tvl": 275780
+    },
+    "sui:ee30d231-9337-4e7c-82bb-4b11ee311d24": {
+      "name": "AFSUI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "ee30d231-9337-4e7c-82bb-4b11ee311d24",
+      "tvl": 274781
+    },
+    "sui:bde28b9b-cb39-4aab-8aa6-4a817661c2a8": {
+      "name": "HAWAL-WAL",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "bde28b9b-cb39-4aab-8aa6-4a817661c2a8",
+      "tvl": 268518
+    },
+    "sui:e5872b73-d144-4060-ae55-7597911bc060": {
+      "name": "TARDI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "e5872b73-d144-4060-ae55-7597911bc060",
+      "tvl": 256228
+    },
+    "sui:df141241-cb6b-4ef1-aa76-bbf7f2640311": {
+      "name": "WSOL-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "df141241-cb6b-4ef1-aa76-bbf7f2640311",
+      "tvl": 242373
+    },
+    "sui:c4fe3980-3841-4256-98b1-2f2de11a46be": {
+      "name": "USDC-WBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "c4fe3980-3841-4256-98b1-2f2de11a46be",
+      "tvl": 166774
+    },
+    "sui:cde1d2ad-6878-4ce9-a260-904eec3a64f1": {
+      "name": "CHIRP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "cde1d2ad-6878-4ce9-a260-904eec3a64f1",
+      "tvl": 162152
+    },
+    "sui:f2b197b4-19f6-4a47-81f9-0bd7a0f730ee": {
+      "name": "SUAI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f2b197b4-19f6-4a47-81f9-0bd7a0f730ee",
+      "tvl": 161552
+    },
+    "sui:9b952d98-22e9-493c-b37b-541dbb53b52d": {
+      "name": "TYPUS-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "9b952d98-22e9-493c-b37b-541dbb53b52d",
+      "tvl": 156539
+    },
+    "sui:06def994-1869-4a21-8954-0ece31a2d711": {
+      "name": "AXOL-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "06def994-1869-4a21-8954-0ece31a2d711",
+      "tvl": 155114
+    },
+    "sui:5203baf9-5b9d-48d3-aa44-1ea30e5bd3bf": {
+      "name": "MEMEFI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "5203baf9-5b9d-48d3-aa44-1ea30e5bd3bf",
+      "tvl": 152208
+    },
+    "sui:06c6e5a3-1630-4618-a8c2-908719a7030c": {
+      "name": "PLUMBUS-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "06c6e5a3-1630-4618-a8c2-908719a7030c",
+      "tvl": 149719
+    },
+    "sui:0c05c6c6-a3b5-40cf-a6af-88041161c163": {
+      "name": "DDDD-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "0c05c6c6-a3b5-40cf-a6af-88041161c163",
+      "tvl": 148782
+    },
+    "sui:21271f67-3327-4c7e-b64f-0d92b6611453": {
+      "name": "WBTC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "21271f67-3327-4c7e-b64f-0d92b6611453",
+      "tvl": 142685
+    },
+    "sui:e33b3b3d-55d0-48d3-82b3-9149b37521b7": {
+      "name": "ATH-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "e33b3b3d-55d0-48d3-82b3-9149b37521b7",
+      "tvl": 138642
+    },
+    "sui:59b47631-7b6a-47a3-bbe1-e0314f1c0376": {
+      "name": "USDC-WSOL",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "59b47631-7b6a-47a3-bbe1-e0314f1c0376",
+      "tvl": 132362
+    },
+    "sui:d469132d-3e9c-44a2-9f0c-40d088c0eb90": {
+      "name": "CAMFROG-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d469132d-3e9c-44a2-9f0c-40d088c0eb90",
+      "tvl": 126363
+    },
+    "sui:11858dd6-643a-4e1b-8f27-3c7d8067f609": {
+      "name": "LOFI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "11858dd6-643a-4e1b-8f27-3c7d8067f609",
+      "tvl": 120783
+    },
+    "sui:3b3bf00d-f4be-47ce-8744-4df467aceebb": {
+      "name": "MILO-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "3b3bf00d-f4be-47ce-8744-4df467aceebb",
+      "tvl": 114294
+    },
+    "sui:9c07bfc3-911e-4d49-8043-28bfb1c2583f": {
+      "name": "USDUT-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "9c07bfc3-911e-4d49-8043-28bfb1c2583f",
+      "tvl": 111807
+    },
+    "sui:e5bdf287-5328-43c6-99c2-dadf41003566": {
+      "name": "GOAT-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "e5bdf287-5328-43c6-99c2-dadf41003566",
+      "tvl": 102113
+    },
+    "sui:72542125-7c6a-4b63-8c80-ec4d276abe18": {
+      "name": "S-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "72542125-7c6a-4b63-8c80-ec4d276abe18",
+      "tvl": 94051
+    },
+    "sui:d9c5de2a-5934-4a97-9114-4a56e56f940d": {
+      "name": "BUCK-NAVX",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d9c5de2a-5934-4a97-9114-4a56e56f940d",
+      "tvl": 93620
+    },
+    "sui:76d01d64-7615-462a-a930-2419f813204a": {
+      "name": "NAVX-CETUS",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "76d01d64-7615-462a-a930-2419f813204a",
+      "tvl": 92412
+    },
+    "sui:d7b2ee06-fe55-4147-bdf6-66cc82cbd6a9": {
+      "name": "SUITRUMP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d7b2ee06-fe55-4147-bdf6-66cc82cbd6a9",
+      "tvl": 88966
+    },
+    "sui:b984214f-fd1e-452e-9b19-0bca3ad6146c": {
+      "name": "WUSDT-WUSDC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "b984214f-fd1e-452e-9b19-0bca3ad6146c",
+      "tvl": 88470
+    },
+    "sui:d3dd6f37-1546-4220-82fc-d7460ee37b87": {
+      "name": "NS-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d3dd6f37-1546-4220-82fc-d7460ee37b87",
+      "tvl": 84358
+    },
+    "sui:3d823886-00a4-4dae-a6e3-d977984728df": {
+      "name": "SCA-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "3d823886-00a4-4dae-a6e3-d977984728df",
+      "tvl": 77425
+    },
+    "sui:a0a5330b-acb3-448e-986e-c1f36deac341": {
+      "name": "UNI-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "a0a5330b-acb3-448e-986e-c1f36deac341",
+      "tvl": 73036
+    },
+    "sui:cdb1d01c-a387-48d2-a72c-1fb05e2a2a5e": {
+      "name": "USDC-SCA",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "cdb1d01c-a387-48d2-a72c-1fb05e2a2a5e",
+      "tvl": 67031
+    },
+    "sui:2b06ddf6-0bc9-48c1-b3d9-d39c8079a511": {
+      "name": "DEEP-USDC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "2b06ddf6-0bc9-48c1-b3d9-d39c8079a511",
+      "tvl": 64660
+    },
+    "sui:6a4c887d-6634-49b4-89bf-57449f117b40": {
+      "name": "SONIC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "6a4c887d-6634-49b4-89bf-57449f117b40",
+      "tvl": 61746
+    },
+    "sui:2b8e401d-c104-488c-965d-f4fe84b21c65": {
+      "name": "SUIA-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "2b8e401d-c104-488c-965d-f4fe84b21c65",
+      "tvl": 60969
+    },
+    "sui:bc7d3204-e8ef-49dd-9fee-b4cb8c3a44fd": {
+      "name": "USDC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "bc7d3204-e8ef-49dd-9fee-b4cb8c3a44fd",
+      "tvl": 55767
+    },
+    "sui:6a182a13-aaad-44ee-9fdf-79539c03485f": {
+      "name": "PYTH-CETUS",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "6a182a13-aaad-44ee-9fdf-79539c03485f",
+      "tvl": 54448
+    },
+    "sui:3c05ac9e-5f19-44d0-953b-04e3bb15ce92": {
+      "name": "BILLY-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "3c05ac9e-5f19-44d0-953b-04e3bb15ce92",
+      "tvl": 53234
+    },
+    "sui:9babcfdd-3f34-4447-977c-2053649f8569": {
+      "name": "HETRA-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "9babcfdd-3f34-4447-977c-2053649f8569",
+      "tvl": 52188
+    },
+    "sui:cbfade5a-0184-4015-8f1f-423b972681d5": {
+      "name": "BLUB-DEEP",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "cbfade5a-0184-4015-8f1f-423b972681d5",
+      "tvl": 48327
+    },
+    "sui:93c813fd-ed16-4f40-bbdf-3e150e03e7be": {
+      "name": "SEND-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "93c813fd-ed16-4f40-bbdf-3e150e03e7be",
+      "tvl": 45015
+    },
+    "sui:b6e9c1eb-2a29-4b90-92f2-16ac76001ecc": {
+      "name": "DEEP-USDC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "b6e9c1eb-2a29-4b90-92f2-16ac76001ecc",
+      "tvl": 43706
+    },
+    "sui:fd10de23-9f3c-4e07-9796-2a6676157f4a": {
+      "name": "USDC-WUSDC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "fd10de23-9f3c-4e07-9796-2a6676157f4a",
+      "tvl": 43683
+    },
+    "sui:f8108c01-bb99-4863-afa1-37d304bd9d82": {
+      "name": "SEND-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f8108c01-bb99-4863-afa1-37d304bd9d82",
+      "tvl": 42710
+    },
+    "sui:e893537d-1005-4c60-9201-a60a719a1557": {
+      "name": "USDZ-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "e893537d-1005-4c60-9201-a60a719a1557",
+      "tvl": 41077
+    },
+    "sui:174e4078-e52b-42ab-87ac-60a94a53874c": {
+      "name": "ZLP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "174e4078-e52b-42ab-87ac-60a94a53874c",
+      "tvl": 39173
+    },
+    "sui:5dd0362f-cbc3-4688-80b8-08c8f0d893d7": {
+      "name": "BUCK-VSUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "5dd0362f-cbc3-4688-80b8-08c8f0d893d7",
+      "tvl": 38262
+    },
+    "sui:2359df3a-d03f-42ed-aeef-39027a8ff261": {
+      "name": "USDC-WAL",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "2359df3a-d03f-42ed-aeef-39027a8ff261",
+      "tvl": 37470
+    },
+    "sui:f2e179f7-40ff-407d-a4f1-a82ad6613fa5": {
+      "name": "TOILET-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f2e179f7-40ff-407d-a4f1-a82ad6613fa5",
+      "tvl": 36511
+    },
+    "sui:7b60469b-00c8-4166-b8b2-d407e88de5b6": {
+      "name": "SLOVE-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "7b60469b-00c8-4166-b8b2-d407e88de5b6",
+      "tvl": 35841
+    },
+    "sui:f09b6d88-56c0-49d7-b6f9-24cccfb70796": {
+      "name": "YBTC.B-LBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f09b6d88-56c0-49d7-b6f9-24cccfb70796",
+      "tvl": 33110
+    },
+    "sui:d38aa2fa-4390-49b8-b0e0-ba46d7570540": {
+      "name": "USDC-HASUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d38aa2fa-4390-49b8-b0e0-ba46d7570540",
+      "tvl": 32003
+    },
+    "sui:35f74f85-3a94-4de2-83dd-49c09eb68baf": {
+      "name": "CULO-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "35f74f85-3a94-4de2-83dd-49c09eb68baf",
+      "tvl": 29573
+    },
+    "sui:10a0554d-d53f-4d39-98bf-319a11c7c402": {
+      "name": "BNKK-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "10a0554d-d53f-4d39-98bf-319a11c7c402",
+      "tvl": 27145
+    },
+    "sui:f6d2cc66-afc1-4f53-b7ff-a38e3358d015": {
+      "name": "WBTC-LBTC",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "f6d2cc66-afc1-4f53-b7ff-a38e3358d015",
+      "tvl": 27140
+    },
+    "sui:109dcba3-7ccd-4ba1-9138-b871f5c19252": {
+      "name": "DEEP-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "109dcba3-7ccd-4ba1-9138-b871f5c19252",
+      "tvl": 26841
+    },
+    "sui:2cba1234-23b2-44fd-b794-18eb3855b42e": {
+      "name": "MEOW-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "2cba1234-23b2-44fd-b794-18eb3855b42e",
+      "tvl": 26775
+    },
+    "sui:a9319683-1605-4be5-998f-2f8a77d7167f": {
+      "name": "POKESOL-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "a9319683-1605-4be5-998f-2f8a77d7167f",
+      "tvl": 26055
+    },
+    "sui:04d66224-42f5-410c-b7cc-b9c9ba672c12": {
+      "name": "VRL100-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "04d66224-42f5-410c-b7cc-b9c9ba672c12",
+      "tvl": 26034
+    },
+    "sui:be26e629-764a-4c83-a38c-05025385280d": {
+      "name": "PITH-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "be26e629-764a-4c83-a38c-05025385280d",
+      "tvl": 25903
+    },
+    "sui:d10c6906-7ca6-4e58-a0fc-6754ebf6422f": {
+      "name": "USDC-WUSDT",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "d10c6906-7ca6-4e58-a0fc-6754ebf6422f",
+      "tvl": 25873
+    },
+    "sui:389f94e5-c469-4bf2-a4ad-d97d63eb3f16": {
+      "name": "USDUC-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "389f94e5-c469-4bf2-a4ad-d97d63eb3f16",
+      "tvl": 25757
+    },
+    "sui:b031500d-fa8f-4df9-8602-3575cd4c712d": {
+      "name": "OLDGUARD-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "b031500d-fa8f-4df9-8602-3575cd4c712d",
+      "tvl": 25522
+    },
+    "sui:6289aac2-a049-495d-be8d-b613e090f6f3": {
+      "name": "CURSE-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "6289aac2-a049-495d-be8d-b613e090f6f3",
+      "tvl": 25495
+    },
+    "sui:1716effa-84b6-4f70-8ba2-b5bc24795a2d": {
+      "name": "WHACKD-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "1716effa-84b6-4f70-8ba2-b5bc24795a2d",
+      "tvl": 25480
+    },
+    "sui:bf6bd47d-e113-4b3f-b30b-36f57a3183b2": {
+      "name": "XBT-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "bf6bd47d-e113-4b3f-b30b-36f57a3183b2",
+      "tvl": 25174
+    },
+    "sui:0140177e-5889-41a6-8f60-13427a0e8786": {
+      "name": "BEVR-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "0140177e-5889-41a6-8f60-13427a0e8786",
+      "tvl": 25133
+    },
+    "sui:94dd055d-be76-4a08-b94f-fdfaa9082ddb": {
+      "name": "DWERK-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "94dd055d-be76-4a08-b94f-fdfaa9082ddb",
+      "tvl": 25112
+    },
+    "sui:cfcdcd13-747f-402c-965d-1fee7c628d41": {
+      "name": "NUF-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "cfcdcd13-747f-402c-965d-1fee7c628d41",
+      "tvl": 25098
+    },
+    "sui:3c08d88f-fdd6-4827-8fe5-d4b91bd895f8": {
+      "name": "RAGEGUY-SUI",
+      "protocol": "cetus",
+      "chain": "Sui",
+      "address": "3c08d88f-fdd6-4827-8fe5-d4b91bd895f8",
+      "tvl": 24949
+    }
+  }
+}
